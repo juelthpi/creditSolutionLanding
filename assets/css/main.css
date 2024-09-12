@@ -76,10 +76,11 @@ section.banner-section:after{
 
 }
 .banner-left h1,.section-heading h2 {
-  font-size:58px;
+  font-size:64px;
   color: #fff;
   margin-bottom: 15px;
-  line-height:73px;
+  line-height:76px;
+  font-weight: 600;
 }
 .exclusive-offer-banner{
   background-size: cover;
@@ -89,14 +90,15 @@ section.banner-section:after{
 	z-index: 2;
 }
 .banner-left p {
-  font-size: 20px;
-  color: #fff;
-  margin-bottom: 48px;
+	font-size: 24px;
+	color: #fff;
+	margin-bottom: 48px;
+	line-height: 45px;
 }
 .withdraw-system h2 {
 	color: #fff;
 	font-size:58px;
-	line-height: 57px;
+	line-height:90px;
 }
 .gradient-text {
   background: -webkit-linear-gradient(1800deg, #feaf18, #ff3002);
@@ -110,11 +112,11 @@ section.banner-section:after{
   background-image: linear-gradient(90deg, #feaf18, #ff3002);
   color: #fff;
   text-decoration: none;
-  font-size: 16px;
-  padding: 10px 25px;
+  font-size: 24px;
+  padding: 14px 40px;
   display: inline-block;
-  font-weight: 400;
-  border-radius: 50px;
+  font-weight: 500;
+  border-radius: 70px;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -134,7 +136,13 @@ section.banner-section:after{
   transition: 0.5s;
   border: 1px solid #ff3002;
 }
- 
+ .header-right .primary-btn{
+  padding: 11px 22px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+
+ }
 .apply-rotate {
   -webkit-transform: rotate(140deg) !important;
       -ms-transform: rotate(140deg) !important;
@@ -866,6 +874,7 @@ section.pricing-plans {
 	left: -75px;
 	bottom: -60px;
 	height: 162px;
+  animation: scale-animation 5s infinite ease-in-out; 
 }
 .commission-list img {
 	position: absolute;
@@ -923,6 +932,7 @@ section.copyright-section {
 .footer-box.footer-menu h3 {
 	font-size: 22px;
 	margin-bottom: 30px;
+  font-weight: 600;
 }
 .footer-box ul li a {
 	color: #aaaaaa;
@@ -980,12 +990,12 @@ section.copyright-section {
   line-height: 36px;
   color:#F7F7F7;
  }
- .section-heading{
-  max-width: 577px;
-  width: 100%;
-  margin: auto;
-  text-align: center;
- }
+ .section-heading {
+	max-width: 610px;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
  .section-heading span{
   font-size: 18px;
   font-weight: 600;
@@ -1002,6 +1012,7 @@ section.copyright-section {
  }
  .commission-details-item img{
   margin-top: -60px;
+  animation: scale-animation 5s infinite ease-in-out; 
  }
  .mt40{
   margin-top: 70px;
@@ -1072,3 +1083,19 @@ section.cta-section img.shape-two {
       -ms-transform: translateY(90px);
           transform: translateY(90px);
 }
+.achievement-thumbnail img{
+  animation: scale-animation 5s infinite ease-in-out;
+}
+@keyframes scale-animation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+ 
+ 
