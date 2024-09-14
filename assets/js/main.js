@@ -1,23 +1,17 @@
 
 jQuery(document).ready(function ($) {
-  
-  $('.service-sliders').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
+  $('.offer-carousel').slick({
+    slidesToShow:1,
     arrows: true,
     autoplay: false,
-    prevArrow: $('.service-left'),
-    nextArrow: $('.service-right'),
-    responsive: [
-      {
-        breakpoint: 1500,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-       
-    ],
-  });
+    infinite: false,
+    prevArrow: $('.slick-prev'),
+      nextArrow: $('.slick-next')
+    
+     
+    });
+  
+  
 
   // menu bg add
     $(window).on('scroll', function() {

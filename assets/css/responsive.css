@@ -265,6 +265,18 @@
 
 }
 @media screen and (max-width: 767px) {
+  .offer-img-show {
+    flex-wrap: wrap;
+  }
+  .top-offer-item{
+    width: 100%;
+  }
+  .commission-details-item {
+    margin-top: 40px;
+  }
+   p {
+    font-size: 15px !important;
+  }
   .commission-list ul li {
     padding: 6px 15px;
     border-radius: 10px;

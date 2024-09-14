@@ -71,7 +71,7 @@ font-family: Poppins;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: -webkit-linear-gradient(1800deg, #feaf18, #ff3002);
+  background:transparent;
   color: white;
   border: none;
   padding: 10px;
@@ -80,8 +80,12 @@ font-family: Poppins;
   border-radius: 50%;
   transition: background-color 0.3s;
   width: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
   height: 40px;
   line-height: 10px;
+}
+.nav-button:hover{
+	background: -webkit-linear-gradient(1800deg, #feaf18, #ff3002);
 }
 .prev-button {
 	left: -15%;

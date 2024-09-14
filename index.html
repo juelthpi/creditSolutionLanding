@@ -22,6 +22,7 @@
          rel="stylesheet"
          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
          />
+         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
       <link rel="stylesheet" href="assets/css/images-preview.css" />
       <link rel="stylesheet" href="assets/css/main.css" />
       <link rel="stylesheet" href="assets/css/responsive.css" />
@@ -112,37 +113,31 @@
                      </h2>
                   </div>
                </div>
-               <div class="col-md-12 mt-5"></div>
+               <div class="col-md-12 mt-5"> 
                <div class="refer-offer-thum">
-                  <div class="slider-container">
-                     <div class="main-slider">
-                        <button class="nav-button prev-button" onclick="prevImage()">
-                           <img src="assets/images/Left.png" alt="arrow">
-                        <!-- &#10094; -->
-                        </button>
-                        <img id="mainImage" src="" alt="Main Slider Image" />
-                        <button class="nav-button next-button" onclick="nextImage()">
-                        <!-- &#10095; -->
-                         <img src="assets/images/right-angle.png" alt="icon">
-                        </button>
-                     </div>
-                     <div id="previewSlider" class="preview-slider">
-                        <!-- Thumbnails with data attributes for the image sources -->
-                        <img
-                           class="preview-image"
-                           src="assets/images/offer-img.png"
-                           data-src="assets/images/offer-img.png"
-                           alt="Thumbnail 1"
-                           />
-                        <img
-                           class="preview-image"
-                           src="assets/images/commission.png"
-                           data-src="assets/images/commission.png"
-                           alt="Thumbnail 1"
-                           />
-                     </div>
+               
+                    
+                   <div class="offer-carousel">
+                     <div><img src="assets/images/offer-img.png"></div>
+                    <div><img src="assets/images/commission-list-bg.png"></div>
+                     <div><img src="assets/images/offer-img.png"></div>
+                    <div><img src="assets/images/commission-list-bg.png"></div>
+                     
+                  </div>
+                  
+                  <button class="slick-prev slider-btn"><i class="fa-solid fa-arrow-left-long"></i></button>
+                  <button class="slick-next slider-btn"><i class="fa-solid fa-arrow-right-long"></i></button>
+               </div>
+               <div class="offer-img-show d-flex align-items-center justify-content-center">
+                  <div class="top-offer-item">
+                     <img src="assets/images/commission.png" alt="img">
+                  </div>
+                  <div class="top-offer-item">
+                     <img src="assets/images/commission.png" alt="img">
                   </div>
                </div>
+               </div>
+
             </div>
             <div class="row">
                <div class="col-12">
@@ -461,7 +456,6 @@
       <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-      <script src="assets/js/image-preview.js"></script>
       <script src="assets/js/main.js"></script>
       <script src="assets/js/core.js"></script>
    </body>
