@@ -265,6 +265,13 @@
 
 }
 @media screen and (max-width: 767px) {
+  .slider-btn {
+    height: 38px;
+    width: 38px;
+  }
+  .slider-btn i {
+    font-size: 15px;
+  }
   .offer-img-show {
     flex-wrap: wrap;
   }

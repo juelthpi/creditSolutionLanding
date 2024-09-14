@@ -164,8 +164,8 @@ ul.navbar-nav li a {
 .button-wrapper i {
   border: 1px solid #ff2801;
   color: #fff;
-  width: 45px;
-  height: 45px;
+  width:60px;
+  height:60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
