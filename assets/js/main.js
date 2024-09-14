@@ -4,7 +4,7 @@ jQuery(document).ready(function ($) {
     slidesToShow:1,
     arrows: true,
     autoplay: false,
-    infinite: false,
+    infinite: true,
     prevArrow: $('.slick-prev'),
       nextArrow: $('.slick-next')
     
