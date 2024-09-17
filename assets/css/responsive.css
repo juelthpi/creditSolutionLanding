@@ -262,6 +262,9 @@
   .mt40 {
     margin-top: 20px;
   }
+  .navbar-toggler{
+    padding:3px 5px;
+  }
 
 }
 @media screen and (max-width: 767px) {

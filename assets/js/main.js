@@ -29,7 +29,7 @@ jQuery(document).ready(function ($) {
   $('.testimonial-sliders').slick({
     slidesToShow: 2,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     arrows: true,
     prevArrow: $('.testimonial-left'),
     nextArrow: $('.testimonial-right'),
